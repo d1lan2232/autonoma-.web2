@@ -1,0 +1,19 @@
+        .card {
+            border: 1px solid #ddd; /* Borde ligero para las tarjetas */
+            border-radius: 10px; /* Bordes redondeados */
+            overflow: hidden; /* Oculta cualquier contenido fuera del borde */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+        }
+        .card-title {
+            font-size: 1.25rem; /* Tamaño del texto del título */
+            text-align: center; /* Centra el texto del título */
+            margin-bottom: 0.5rem; /* Espacio debajo del título */
+        }
+        .card-img-top {
+            object-fit: cover; /* Asegura que la imagen cubra el área de la tarjeta */
+            height: 250px; /* Altura fija para las imágenes */
+        }
+        .btn {
+            width: 100%; /* Botón ocupa el ancho completo de la tarjeta */
+            border-radius: 0; /* Bordes del botón sin redondear */
+        }
